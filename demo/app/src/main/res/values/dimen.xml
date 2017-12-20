@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_hight">24dp</dimen>
+    <!-- 文字大小-->
+    <dimen name="text_size_22">22dp</dimen>
+    <dimen name="text_size_18">18dp</dimen>
+    <dimen name="text_size_16">16dp</dimen>
+    <dimen name="text_size_14">14dp</dimen>
+    <dimen name="text_size_11">11dp</dimen>
+    <dimen name="text_size_12">12dp</dimen>
+    <dimen name="text_size_13">13dp</dimen>
+
+    <!--登录-->
+    <dimen name="login_editor_height">42dp</dimen>
+    <dimen name="login_margin_both">30dp</dimen>
+    <dimen name="login_margin_top">64dp</dimen>
+    <dimen name="login_editor_margin_top">53dp</dimen>
+    <dimen name="login_editor_captcha_top">18dp</dimen>
+    <dimen name="login_line_top">8dp</dimen>
+    <dimen name="login_margin_bottom">33dp</dimen>
+    <!--推荐页-->
+    <dimen name="recomment_title_height">50dp</dimen>
+    <dimen name="recomment_title_user_image_height">26dp</dimen>
+
+    <!--个人中心-->
+    <dimen name="me_title_height">160dp</dimen>
+    <dimen name="me_user_icon_height">74dp</dimen>
+    <dimen name="me_user_icon_margin_bottom">14dp</dimen>
+    <dimen name="me_user_name_margin_bottom">38dp</dimen>
+    <dimen name="me_user_icon_margin_left">19dp</dimen>
+    <dimen name="me_user_icon_sex_height">24dp</dimen>
+
+    <dimen name="me_user_video_delete_width">60dp</dimen>
+    <dimen name="me_user_video_item_height">106dp</dimen>
+    <dimen name="me_user_video_image_width">60dp</dimen>
+    <dimen name="me_user_video_margin_top">13dp</dimen>
+    <dimen name="me_user_video_margin_bottom">10dp</dimen>
+    <dimen name="me_user_video_margin_left">17dp</dimen>
+
+    <!--设置界面-->
+    <dimen name="setting_user_icon">73dp</dimen>
+    <dimen name="setting_margin_top">44dp</dimen>
+    <dimen name="setting_camera_icon">26dp</dimen>
+    <dimen name="setting_user_name_margin_left">15dp</dimen>
+    <dimen name="setting_user_margin_left">23dp</dimen>
+    <dimen name="setting_user_margin_top">22dp</dimen>
+    <dimen name="setting_user_logout_margin_top">27dp</dimen>
+    <dimen name="setting_seletor_item_height">52dp</dimen>
+    <dimen name="setting_seletor_border">10dp</dimen>
+    <dimen name="setting_seletor_text_radius">12dp</dimen>
+
+    <dimen name="title_margin_bottom">8dp</dimen>
+    <dimen name="title_padding">15dp</dimen>
+    <dimen name="title_margin_top">12dp</dimen>
+
+</resources>

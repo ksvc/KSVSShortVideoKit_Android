@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">金山短视频</string>
+    <!--登录界面-->
+    <string name="login_name">登录</string>
+    <string name="login_get_phone">获取验证码</string>
+    <string name="login_reget_phone">重新获取</string>
+    <string name="login_editor_phone_hint">请输入手机号</string>
+    <string name="login_editor_captcha_hint">请输入验证码</string>
+    <string name="login_editor_phone_error">手机号码不正确</string>
+    <string name="login_editor_captcha_error">验证码不正确</string>
+    <string name="login_get_captcha_error">获取验证码失败，请重试</string>
+    <string name="login_login_error">登录失败，请重试</string>
+    <string name="login_captcha_error">验证码错误</string>
+    <string name="login_auth_error">鉴权失败，请检查后重试</string>
+    <string name="logout_user">用户已经登出，请重新登录</string>
+
+    <!--个人中心页-->
+    <string name="me_setting_uid">开播ID:%s</string>
+    <string name="me_upload_video_size">已发布视频（%d）</string>
+    <string name="me_get_upload_error">获取已发布视频失败</string>
+    <string name="me_get_upload_video_null">"没有发布过任何视频"</string>
+
+    <string name="me_delete_video_dialog_message">确定删除？</string>
+    <string name="me_delete_video_dialog_cancel">取消</string>
+    <string name="me_delete_video_dialog_confirm">确定</string>
+
+    <string name="me_delete_video_error">视频删除失败</string>
+
+    <!--设置界面-->
+    <string name="setting_title">设置</string>
+    <string name="setting_user_name">昵称</string>
+    <string name="setting_user_sex">性别</string>
+    <string name="setting_logout">退出登录</string>
+    <string name="setting_save">保存</string>
+    <string name="setting_seletor_camera">拍一张</string>
+    <string name="setting_seletor_photo">相册选择</string>
+    <string name="setting_user_name_error">请输入正确的用户昵称</string>
+    <string name="setting_seletor_cancel">取消</string>
+
+    <string name="setting_logout_message">您确定要退出登录吗？</string>
+    <string name="setting_logout_cancel">取消</string>
+    <string name="setting_logout_confirm">确定</string>
+    <string name="setting_setuser_error">个人信息修改失败</string>
+    <string name="setting_no_camera_permissions">没有摄像头或存储权限，无法拍照</string>
+    <string name="setting_no_write_permissions">没有存储权限，无法选择照片</string>
+    <string name="setting_no_picture">当前图片无法选择</string>
+
+    <!--主页-->
+    <string name="main_no_camera_permissions">没有摄像头或者音频权限，无法开启录制</string>
+
+    <string name="back_upload_video">删除</string>
+</resources>

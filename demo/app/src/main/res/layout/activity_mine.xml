@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/me_title_height"
+        android:background="@drawable/me_back">
+
+        <com.ksyun.ts.skin.common.TitleCommonView
+            android:id="@+id/title_common_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.ksyun.ts.skin.common.TitleCommonView>
+
+        <FrameLayout
+            android:id="@+id/fl_user_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/me_user_icon_margin_bottom"
+            android:layout_marginLeft="@dimen/me_user_icon_margin_left">
+
+            <ImageView
+                android:id="@+id/imgv_user_logo"
+                android:layout_width="@dimen/me_user_icon_height"
+                android:layout_height="@dimen/me_user_icon_height"
+                android:src="@drawable/player_user_image" />
+
+            <ImageView
+                android:id="@+id/imgv_sex_logo"
+                android:layout_width="@dimen/me_user_icon_sex_height"
+                android:layout_height="@dimen/me_user_icon_sex_height"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="2dp"
+                android:background="@color/transparent"
+                android:src="@drawable/sex_woman" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/me_user_name_margin_bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/fl_user_icon"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="糖糖"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_22" />
+
+        <TextView
+            android:id="@+id/tv_user_uid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/me_user_icon_margin_bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/fl_user_icon"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/me_setting_uid"
+            android:textColor="@color/me_setting_id_text_color"
+            android:textSize="@dimen/text_size_14"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_upload_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/me_user_video_margin_bottom"
+        android:layout_marginLeft="@dimen/me_user_video_margin_left"
+        android:layout_marginTop="@dimen/me_user_video_margin_bottom"
+        android:text="@string/me_upload_video_size"
+        android:textColor="@color/text_hair_black_color"
+        android:textSize="@dimen/text_size_16" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/me_setting_line_color" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recv_remote_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
