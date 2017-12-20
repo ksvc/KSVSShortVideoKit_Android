@@ -8,10 +8,7 @@
 
    短视频服务也支持定制化，用户自行定制UI和界面，充分与业务整合，实现业务的快速发展。
 金山云短视频服务，以重运营，轻研发的服务理念，让您避免复杂的架构设计和编程开发，极大地降低技术对接成本。
-
-<img src="https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/01.png" />
-<img src="https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/02.png" />
-<img src="https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/03.png"/>
+![image1](https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/01.png)![image2](https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/02.png)![image3](https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/03.png)
 
 
 ## 2 项目架构
