@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ksyun.ts.skin.ui.SwipeItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/me_user_video_item_height">
+
+        <com.ksyun.ts.skin.ui.BlurImageView
+            android:id="@+id/imgv_video_cover"
+            android:layout_width="@dimen/me_user_video_image_width"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/me_user_video_margin_bottom"
+            android:layout_marginLeft="@dimen/me_user_video_margin_left"
+            android:layout_marginTop="@dimen/me_user_video_margin_top"
+            android:background="@color/transparent"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/me_user_video_margin_bottom"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="@dimen/me_user_video_margin_top"
+            android:layout_toRightOf="@id/imgv_video_cover"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_video_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="bottom"
+                android:maxLines="1"
+                android:text="时间仍在，是我们在飞逝… "
+                android:textColor="@color/text_hair_black_color"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/tv_create_timer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="2017-09-16 12:48"
+                android:textColor="@color/text_gray_color"
+                android:textSize="@dimen/text_size_11" />
+
+            <TextView
+                android:id="@+id/tv_video_duration"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:text="时长：30:34"
+                android:textColor="@color/text_gray_color"
+                android:textSize="@dimen/text_size_11" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/me_user_video_margin_left"
+            android:background="@color/me_setting_line_color" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/me_user_video_delete_width"
+        android:layout_height="@dimen/me_user_video_item_height">
+
+        <Button
+            android:id="@+id/btn_delete"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/me_user_video_delete_width"
+            android:layout_height="match_parent"
+            android:background="@color/back_upload_video_back"
+            android:text="@string/back_upload_video"
+            android:textColor="@color/text_white_color"
+            android:textSize="@dimen/text_size_14" />
+
+    </LinearLayout>
+</com.ksyun.ts.skin.ui.SwipeItemLayout>

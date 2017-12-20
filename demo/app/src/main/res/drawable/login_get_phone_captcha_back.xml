@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <corners android:radius="4dp" />
+            <solid android:color="@color/white" />
+            <stroke android:width="1dp" android:color="@color/login_get_phone" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape>
+            <corners android:radius="4dp" />
+            <solid android:color="@color/white" />
+            <stroke android:width="1dp" android:color="@color/login_get_phone_correct" />
+        </shape>
+    </item>
+</selector>

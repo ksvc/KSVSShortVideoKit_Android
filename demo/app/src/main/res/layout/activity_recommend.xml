@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_recommend_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/recomment_title_height"
+        android:gravity="center_vertical">
+
+        <FrameLayout
+            android:id="@+id/fl_user_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imgv_user_logo"
+                android:layout_width="@dimen/recomment_title_user_image_height"
+                android:layout_height="@dimen/recomment_title_user_image_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@color/transparent"
+                android:src="@drawable/player_user_image" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/fl_user_icon"
+            android:gravity="center_vertical"
+            android:text="糖糖"
+            android:textColor="@color/text_hair_black_color"
+            android:textSize="@dimen/text_size_13" />
+
+        <ImageButton
+            android:id="@+id/imgv_record"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/transparent"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/record_icon" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFE8E8E8" />
+
+    <FrameLayout
+        android:id="@+id/fl_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</LinearLayout>

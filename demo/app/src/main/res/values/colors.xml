@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <!-- 文本颜色 -->
+    <color name="text_white_color">#ffffffff</color>
+    <color name="text_black_color">#ff000000</color>
+    <color name="text_red_color">#FFFF2E4E</color>
+    <color name="text_dark_gray_color">#ff666666</color>
+    <color name="text_hair_black_color">#ff333333</color>
+    <color name="text_gray_color">#ff999999</color>
+
+    <!--登录-->
+    <color name="login_line_color">#FFE7E7E7</color>
+    <color name="login_get_phone">#FFE3E1E1</color>
+    <color name="login_get_phone_correct">#FFFF2E4E</color>
+    <!--个人中心-->
+    <color name="me_setting_id_text_color">#FF9B9B9B</color>
+    <color name="me_setting_line_color">#FFEFEFEF</color>
+
+    <!--设置界面-->
+    <color name="setting_title_color">#FF0E0F1A</color>
+    <color name="setting_user_name">#FF0E0F1A</color>
+    <color name="setting_user_name_hint_color">#FF9B9B9B</color>
+    <color name="setting_logout_text_color">#FF0E0F1A</color>
+    <color name="setting_seletor_text_color">#FF0076FF</color>
+
+    <color name="back_upload_video_back">#FFFF2E4E</color>
+</resources>

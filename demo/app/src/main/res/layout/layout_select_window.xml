@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_select_item1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_seletor_item_height"
+        android:layout_marginLeft="@dimen/setting_seletor_border"
+        android:layout_marginRight="@dimen/setting_seletor_border"
+        android:background="@drawable/select_window_text_top_back"
+        android:gravity="center"
+        android:text="@string/setting_seletor_camera"
+        android:textColor="@color/setting_seletor_text_color"
+        android:textSize="@dimen/text_size_18" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/setting_seletor_border"
+        android:layout_marginRight="@dimen/setting_seletor_border"
+        android:background="#FFE1E1E1" />
+
+    <TextView
+        android:id="@+id/tv_select_item2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_seletor_item_height"
+        android:layout_marginLeft="@dimen/setting_seletor_border"
+        android:layout_marginRight="@dimen/setting_seletor_border"
+        android:background="@drawable/select_window_text_bottom_back"
+        android:gravity="center"
+        android:text="@string/setting_seletor_photo"
+        android:textColor="@color/setting_seletor_text_color"
+        android:textSize="@dimen/text_size_18" />
+
+    <TextView
+        android:id="@+id/tv_select_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_seletor_item_height"
+        android:layout_marginBottom="@dimen/setting_seletor_border"
+        android:layout_marginLeft="@dimen/setting_seletor_border"
+        android:layout_marginRight="@dimen/setting_seletor_border"
+        android:layout_marginTop="@dimen/setting_seletor_border"
+        android:background="@drawable/select_window_text_cancel_back"
+        android:gravity="center"
+        android:text="@string/setting_seletor_cancel"
+        android:textColor="@color/setting_seletor_text_color"
+        android:textSize="@dimen/text_size_18" />
+</LinearLayout>

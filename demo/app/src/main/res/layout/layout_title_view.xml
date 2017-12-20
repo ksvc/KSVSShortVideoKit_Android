@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imgb_common_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@color/transparent"
+        android:paddingBottom="@dimen/title_margin_bottom"
+        android:paddingLeft="@dimen/title_padding"
+        android:paddingRight="@dimen/title_padding"
+        android:paddingTop="@dimen/title_margin_top"
+        android:src="@drawable/black_backimage"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_common_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="@dimen/title_margin_bottom"
+        android:paddingTop="@dimen/title_margin_top"
+        android:text="相机胶卷"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_common_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="@dimen/title_margin_bottom"
+        android:paddingRight="@dimen/title_padding"
+        android:paddingTop="@dimen/title_margin_top"
+        android:text="相机胶卷"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imgb_common_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@color/transparent"
+        android:paddingBottom="@dimen/title_margin_bottom"
+        android:paddingLeft="@dimen/title_padding"
+        android:paddingRight="@dimen/title_padding"
+        android:paddingTop="@dimen/title_margin_top"
+        android:src="@drawable/black_backimage"
+        android:visibility="gone" />
+</merge>

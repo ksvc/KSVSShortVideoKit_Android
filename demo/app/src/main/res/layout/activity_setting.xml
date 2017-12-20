@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.ksyun.ts.skin.common.TitleCommonView
+        android:id="@+id/title_common_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.ksyun.ts.skin.common.TitleCommonView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFEFEFEF" />
+
+    <FrameLayout
+        android:id="@+id/fl_user_icon_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/setting_margin_top">
+
+        <ImageView
+            android:id="@+id/imgv_user_logo"
+            android:layout_width="@dimen/setting_user_icon"
+            android:layout_height="@dimen/setting_user_icon"
+            android:background="@color/transparent"
+            android:src="@drawable/user_icon" />
+
+        <ImageView
+            android:layout_width="@dimen/setting_camera_icon"
+            android:layout_height="@dimen/setting_camera_icon"
+            android:layout_gravity="bottom|right"
+            android:background="@color/transparent"
+            android:src="@drawable/user_camera_icon" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setting_user_margin_left"
+        android:layout_marginTop="@dimen/setting_user_margin_top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_user_name"
+            android:textColor="@color/setting_user_name"
+            android:textSize="@dimen/text_size_16" />
+
+        <com.ksyun.ts.skin.ui.KSVSContainsEmojiEditText
+            android:id="@+id/edit_user_name_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setting_user_name_margin_left"
+            android:background="@null"
+            android:hint="糖糖"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/setting_user_name"
+            android:textColorHint="@color/setting_user_name_hint_color"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/setting_user_margin_left"
+        android:layout_marginTop="11dp"
+        android:background="#FFEFEFEF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setting_user_margin_left"
+        android:layout_marginTop="@dimen/setting_user_margin_top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_user_sex"
+            android:textColor="@color/setting_user_name"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/tv_sex_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setting_user_name_margin_left"
+            android:background="@null"
+            android:text="女"
+            android:textColor="@color/setting_user_name_hint_color"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/setting_user_margin_left"
+        android:layout_marginTop="11dp"
+        android:background="#FFEFEFEF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/setting_user_logout_margin_top"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="@string/setting_logout"
+            android:textColor="@color/setting_logout_text_color"
+            android:textSize="@dimen/text_size_16" />
+
+        <View
+            android:id="@+id/v_drop_view"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp" />
+</LinearLayout>
