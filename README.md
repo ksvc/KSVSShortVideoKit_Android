@@ -9,15 +9,15 @@
    短视频服务也支持定制化，用户自行定制UI和界面，充分与业务整合，实现业务的快速发展。
 金山云短视频服务，以重运营，轻研发的服务理念，让您避免复杂的架构设计和编程开发，极大地降低技术对接成本。
 
-<img src="http://newgit.op.ksyun.com/kts/KTSShortVideoDemo_Android/wikis/images/01.png" />
-<img src="http://newgit.op.ksyun.com/kts/KTSShortVideoDemo_Android/wikis/images/02.png" />
-<img src="http://newgit.op.ksyun.com/kts/KTSShortVideoDemo_Android/wikis/images/03.png"/>
+<img src="https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/01.png" />
+<img src="https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/02.png" />
+<img src="https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/03.png"/>
 
 
 ## 2 项目架构
   短视频解决方案架构图如下:
 
-  ![image](http://newgit.op.ksyun.com/kts/KTSShortVideoDemo_Android/wikis/images/framework.png)
+  ![image](https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/framework.png)
 ### 2.1 架构流程描述
    * APP 集成时，需要先鉴权才能使用短视频解决方案后续功能
    * 短视频解决方案包含推荐页、播放页、录制页等等特别漂亮绚丽的展示效果
@@ -34,7 +34,7 @@
 
    鉴权流程图解如下：
 
-  ![image](http://newgit.op.ksyun.com/kts/KTSShortVideoDemo_Android/wikis/images/auth.png)
+  ![image](https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/auth.png)
 
 ### 2.3 高大上的推荐算法
    短视频解决方案提供完整的推荐算法，可以让每个用户都能看到自己喜爱的视频。推荐算法准确性相关因素：
@@ -204,7 +204,7 @@
 ### 5.2 短视频解决方案咨询
 金山云官方产品客服，帮您快速了解对接金山云短视频解决方案：
 
- ![image](http://newgit.op.ksyun.com/kts/KTSShortVideoDemo_Android/wikis/images/wechat.png)
+ ![image](https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/wechat.png)
 ### 5.3 联系方式
   * 主页：[金山云](http://www.ksyun.com/)
   * 邮箱: zengfanping@kingsoft.com
