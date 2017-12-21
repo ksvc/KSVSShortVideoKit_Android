@@ -185,7 +185,7 @@
 
        ```
 
-   1. 具体的接口使用，请在WIKI查看：[wiki](https://github.com/ksvc/KSVSShortVideoKit_Android)
+   1. 具体的接口使用，请在WIKI查看：[wiki](https://github.com/ksvc/KSVSShortVideoKit_Android/wiki)
 
 ## 5 反馈与建议
 ### 5.1 反馈模版
