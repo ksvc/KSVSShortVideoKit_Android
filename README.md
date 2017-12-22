@@ -72,12 +72,12 @@
 
 ### 4.2 集成流程
    1. 从github下载AAR文件或者直接使用jcenter依赖。
-
-   github 地址：https://github.com/ksvc/KSVSShortVideoKit_Android
-     
-  gradle 依赖: compile 'com.ksyun.ts:ShortVideoKit:1.0.0'
-
-
+   
+        ```
+         github 地址：https://github.com/ksvc/KSVSShortVideoKit_Android
+         gradle 依赖: compile 'com.ksyun.ts:ShortVideoKit:1.0.0'
+        ```
+        
    1. 通过jcenter依赖其他相关项目
 
       ```
