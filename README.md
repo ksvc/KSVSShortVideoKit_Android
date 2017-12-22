@@ -75,7 +75,8 @@
 
       ```
          github 地址：https://github.com/ksvc/KSVSShortVideoKit_Android
-      ```
+         Gradle : compile 'com.ksyun.ts:ShortVideoKit:1.0.0'
+      ```
 
    1. 通过jcenter依赖其他相关项目
 
