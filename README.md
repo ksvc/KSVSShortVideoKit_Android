@@ -1,4 +1,5 @@
 # 金山云短视频解决方案 KSVSShortVideo_Android
+  [ ![Download](https://api.bintray.com/packages/ksvc/ksvs/ShortVideoKit/images/download.svg) ](https://bintray.com/ksvc/ksvs/ShortVideoKit/_latestVersion)
 
 
 ## 1 简述
